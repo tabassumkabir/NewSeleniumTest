@@ -20,7 +20,7 @@ public class DriverSetup {
 	}
 	
 	@AfterSuite
-	public static void close() {
+	public  void close() {
 		driver.close();
 	}
 
