@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.TC001">
+      <class name="Testcase.TC003_VerifyRadioAndCheckbox">
         <methods>
-          <include name="TestCase"/>
           <include name="setDriver"/>
           <include name="close"/>
+          <include name="CheckboxAndRadioButtonInframe"/>
         </methods>
-      </class> <!-- Testcase.TC001 -->
+      </class> <!-- Testcase.TC003_VerifyRadioAndCheckbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

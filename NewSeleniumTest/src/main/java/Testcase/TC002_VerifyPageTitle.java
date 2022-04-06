@@ -22,7 +22,7 @@ public class TC002_VerifyPageTitle extends DriverSetup{
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public static void IsWebsiteSafe() {
 		
 		String y=driver.getCurrentUrl();	
