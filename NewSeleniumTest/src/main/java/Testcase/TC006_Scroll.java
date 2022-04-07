@@ -24,9 +24,9 @@ public class TC006_Scroll extends DriverSetup{
 		
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
-		Thread.sleep(5000);
+		
 		js.executeScript("window.scrollTo(document.body.scrollHeight,0);");
-		Thread.sleep(5000);
+		
 		
 		
 	}
