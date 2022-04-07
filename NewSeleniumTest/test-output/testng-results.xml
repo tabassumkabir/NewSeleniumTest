@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T11:51:00 ALMT" name="Default suite" finished-at="2022-04-07T11:51:05 ALMT" duration-ms="5531">
+  <suite started-at="2022-04-07T12:40:51 ALMT" name="Default suite" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15289">
     <groups>
     </groups>
-    <test started-at="2022-04-07T11:51:00 ALMT" name="Default test" finished-at="2022-04-07T11:51:05 ALMT" duration-ms="5531">
-      <class name="Testcase.TC005_Refresh">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:Testcase.TC005_Refresh@67f639d3]" started-at="2022-04-07T11:50:54 ALMT" name="setDriver" finished-at="2022-04-07T11:51:00 ALMT" duration-ms="5064" status="PASS">
+    <test started-at="2022-04-07T12:40:51 ALMT" name="Default test" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15289">
+      <class name="Testcase.TC006_Scroll">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:40:48 ALMT" name="setDriver" finished-at="2022-04-07T12:40:51 ALMT" duration-ms="3429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="refreshPage()[pri:0, instance:Testcase.TC005_Refresh@67f639d3]" started-at="2022-04-07T11:51:00 ALMT" name="refreshPage" finished-at="2022-04-07T11:51:05 ALMT" duration-ms="5503" status="PASS">
+        <test-method signature="scrollCheck()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:40:51 ALMT" name="scrollCheck" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcase.TC005_Refresh@67f639d3]" started-at="2022-04-07T11:51:05 ALMT" name="close" finished-at="2022-04-07T11:51:05 ALMT" duration-ms="56" status="PASS">
+        </test-method> <!-- scrollCheck -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:41:07 ALMT" name="close" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testcase.TC005_Refresh -->
+      </class> <!-- Testcase.TC006_Scroll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
