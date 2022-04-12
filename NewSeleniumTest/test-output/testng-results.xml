@@ -1,25 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T12:40:51 ALMT" name="Default suite" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15289">
+  <suite started-at="2022-04-12T12:24:32 ALMT" name="Suite" finished-at="2022-04-12T12:24:50 ALMT" duration-ms="17953">
     <groups>
     </groups>
-    <test started-at="2022-04-07T12:40:51 ALMT" name="Default test" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15289">
-      <class name="Testcase.TC006_Scroll">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:40:48 ALMT" name="setDriver" finished-at="2022-04-07T12:40:51 ALMT" duration-ms="3429" status="PASS">
+    <test started-at="2022-04-12T12:24:32 ALMT" name="Test" finished-at="2022-04-12T12:24:50 ALMT" duration-ms="17953">
+      <class name="Testcase.TC001">
+        <test-method signature="TestCase()[pri:0, instance:Testcase.TC001@46b61c56]" started-at="2022-04-12T12:24:44 ALMT" name="TestCase" finished-at="2022-04-12T12:24:50 ALMT" duration-ms="6563" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#inputUsername"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-92UMK2U', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b860f65b7e9e826edee5ea604850cb95, findElement {using=id, value=inputUsername}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\tabas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53314/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b860f65b7e9e826edee5ea604850cb95]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#inputUsername"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-92UMK2U', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b860f65b7e9e826edee5ea604850cb95, findElement {using=id, value=inputUsername}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\tabas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53314/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b860f65b7e9e826edee5ea604850cb95
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at Testcase.TC001.TestCase(TC001.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+      </class> <!-- Testcase.TC001 -->
+      <class name="Testcase.TC004_VerifyDropDown">
+        <test-method signature="DropDown()[pri:0, instance:Testcase.TC004_VerifyDropDown@481ba2cf]" started-at="2022-04-12T12:24:40 ALMT" name="DropDown" finished-at="2022-04-12T12:24:44 ALMT" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+      </class> <!-- Testcase.TC004_VerifyDropDown -->
+      <class name="Testcase.TC002_VerifyPageTitle">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:Testcase.TC002_VerifyPageTitle@5ef5c734]" started-at="2022-04-12T12:24:26 ALMT" name="setDriver" finished-at="2022-04-12T12:24:32 ALMT" duration-ms="5762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="scrollCheck()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:40:51 ALMT" name="scrollCheck" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="15256" status="PASS">
+        <test-method signature="verifyTitle()[pri:1, instance:Testcase.TC002_VerifyPageTitle@5ef5c734]" started-at="2022-04-12T12:24:32 ALMT" name="verifyTitle" finished-at="2022-04-12T12:24:40 ALMT" duration-ms="8125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollCheck -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcase.TC006_Scroll@67f639d3]" started-at="2022-04-07T12:41:07 ALMT" name="close" finished-at="2022-04-07T12:41:07 ALMT" duration-ms="53" status="PASS">
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="IsWebsiteSafe()[pri:2, instance:Testcase.TC002_VerifyPageTitle@5ef5c734]" started-at="2022-04-12T12:24:40 ALMT" name="IsWebsiteSafe" finished-at="2022-04-12T12:24:40 ALMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsWebsiteSafe -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testcase.TC002_VerifyPageTitle@5ef5c734]" started-at="2022-04-12T12:24:50 ALMT" name="close" finished-at="2022-04-12T12:24:50 ALMT" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testcase.TC006_Scroll -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Testcase.TC002_VerifyPageTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

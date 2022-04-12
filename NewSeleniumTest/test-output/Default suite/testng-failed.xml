@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.TC006_Scroll">
+      <class name="Testcase.TC010_AlertAndPopUp">
         <methods>
+          <include name="alertHandlingCheck"/>
           <include name="setDriver"/>
           <include name="close"/>
-          <include name="scrollCheck"/>
         </methods>
-      </class> <!-- Testcase.TC006_Scroll -->
+      </class> <!-- Testcase.TC010_AlertAndPopUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
