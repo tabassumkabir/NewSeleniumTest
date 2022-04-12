@@ -11,11 +11,12 @@ import org.testng.annotations.Test;
 import Base.DriverSetup;
 
 
-@Test
+
 public class TC008_DragAndDrop extends DriverSetup{
 	
 	public static String Url="https://jqueryui.com/slider/";
 	
+	@Test
 	public static void sliderCheck() throws InterruptedException {
 		
 		driver.get(Url);

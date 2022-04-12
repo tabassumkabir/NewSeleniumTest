@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 import Base.DriverSetup;
 
 
-@Test
+
 public class TC010_AlertAndPopUp extends DriverSetup {
 	
 	public static String Url="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert";
 	
-	
+	@Test
 	public static void alertHandlingCheck() throws InterruptedException {
 		
 		driver.get(Url);

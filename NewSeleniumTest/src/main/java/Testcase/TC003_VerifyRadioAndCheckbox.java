@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 
 import Base.DriverSetup;
 
-@Test
+
 public class TC003_VerifyRadioAndCheckbox extends DriverSetup{
 	
 	public static String Url="https://jqueryui.com/checkboxradio/";
+	
+	@Test
 	public static void CheckboxAndRadioButtonInframe() throws InterruptedException {
 		driver.get(Url);
 		new WebDriverWait(driver,Duration.ofSeconds(10));

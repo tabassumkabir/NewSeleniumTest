@@ -10,11 +10,12 @@ import org.testng.annotations.Test;
 
 import Base.DriverSetup;
 
-@Test
+
 public class TC009_KeyboardEvent extends DriverSetup{
 	
 	public static String Url="http://automationpractice.com/index.php";
 	
+	@Test
 	public  static void keyboardEventCheck() throws InterruptedException {
 		
 		driver.get(Url);

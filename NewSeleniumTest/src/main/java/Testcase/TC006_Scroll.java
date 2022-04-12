@@ -11,11 +11,12 @@ import org.testng.annotations.Test;
 
 import Base.DriverSetup;
 
-@Test
+
 public class TC006_Scroll extends DriverSetup{
 	
 	public static String Url="https://www.seleniumhq.org";
 	
+	@Test
 	public static void scrollCheck() throws InterruptedException {
 		
 		driver.get(Url);

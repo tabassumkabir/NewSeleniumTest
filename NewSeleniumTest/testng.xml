@@ -3,9 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Testcase.TC003_VerifyRadioAndCheckbox"/>
       <class name="Testcase.TC002_VerifyPageTitle"/>
       <class name="Testcase.TC004_VerifyDropDown"/>
+     
+      <class name="Testcase.TC008_DragAndDrop"/>
+      <class name="Testcase.TC005_Refresh"/>
+      <class name="Testcase.TC006_Scroll"/>
       <class name="Testcase.TC001"/>
+      <class name="Testcase.TC007_RightContextClick"/>
+      <class name="Testcase.TC010_AlertAndPopUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

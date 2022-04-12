@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 
 import Base.DriverSetup;
 
-@Test
+
 public class TC007_RightContextClick extends DriverSetup{
 	 public static String Url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select_multiple";
 	
-	
+	 @Test
 	public static void doubleClickRightClick() throws InterruptedException {
 		driver.get(Url);
 		new WebDriverWait(driver,Duration.ofSeconds(5));
